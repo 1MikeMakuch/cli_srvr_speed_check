@@ -4,6 +4,9 @@ Measure network throughput between 2 endpoints. Just run the server on some host
 hit it with the client on some other host. Use to confirm speed of connections, narrow
 down bottlenecks etc.
 
+makefile currently builds on debian, osx. At one time I had this building on Windoz
+but don't currently have DevStudio installed..
+
 ./srvr
 usage srvr -p port [-d]
 
